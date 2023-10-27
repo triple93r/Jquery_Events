@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    This is the body
+    The mouseenter() method attaches an event handler function to an HTML element.
+    <h1>This is the head1 space</h1>
+    <script>
+        $(document).ready(function(){
+            $("h1").mouseenter(function(){
+                alert("You entered h1!");
+            });
+        });
+    </script>
+</body>
+</html>
